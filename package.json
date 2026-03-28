@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/thehappyredwolf/subby/issues"
   },
-  "homepage": "https://github.com/thehappyredwolf/subby#readme"
+  "homepage": "https://github.com/thehappyredwolf/subby#readme",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
 }
