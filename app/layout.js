@@ -24,7 +24,14 @@ export default function RootLayout({ children }) {
   );
 
   const footer = (
-    <footer style={{ textAlign: "center" }}>
+    <footer
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "100px",
+      }}
+    >
       <p>Created with ❤️ by Abdelrahman Elsayed</p>
     </footer>
   );
